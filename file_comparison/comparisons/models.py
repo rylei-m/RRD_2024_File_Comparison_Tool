@@ -9,3 +9,4 @@ class ComparisonResult(models.Model):
     document_2 = models.ForeignKey(Document, related_name='document_2', on_delete=models.CASCADE)
     result = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
+    
